@@ -1,12 +1,12 @@
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(Gilroy-Regular\ \(1\).woff2);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Gilroy-Regular";
-}
-@font-face {
-    font-family: Gilroy-Regular;
-    src: url(Gilroy-Regular.ttf);
 }
 html,body{
     height: 100%;
