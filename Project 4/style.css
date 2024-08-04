@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy-Regular";
+}
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(Gilroy-Regular.ttf);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #d4d8de;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    gap:10px;
+    padding: 20px 20px;
+}
+#left{
+    height: 100%;
+    width: 48%;
+    /* background-color: blue; */
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#square{
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    border: solid black 2px;
+    rotate: 45deg;
+}
+#center{
+    height: 20%;
+    width: 100%;
+    /* background-color: rgb(255, 0, 195); */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px 20px;
+    margin-top: 40px;
+}
+#center h4{
+     font-size: 17px;
+     line-height: 24px;
+}
+#center-in{
+    width: 100%;
+    height: 50%;
+    /* background-color: royalblue; */
+    padding: 50px 20px;
+}
+#center-in h1{
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+#center-in #sec{
+    margin-left: 70px;
+}
+#center-in #for{
+    margin-left: 180px;
+}
+#bottom{
+    width: 100%;
+    padding: 20px 20px;
+}
+#bottom p{
+    font-size: 16px;
+}
+#right{
+    height: 100%;
+    position: relative;
+}
+#right video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 33%;
+}
+.gola{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(241, 45, 45);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left:-5%;
+}
+.gola i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+     color: rgb(218, 209, 209);
+     font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#right{
+    height: 100%;
+    width: 45%;
+    background-color: yellowgreen;
+}
